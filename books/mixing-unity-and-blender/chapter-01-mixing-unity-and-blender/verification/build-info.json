@@ -1,0 +1,122 @@
+{
+  "project": "First Ring / Emerald Circuit",
+  "chapter": "01 - Mixing Unity and Blender",
+  "recordedAtUtc": "2026-10-27T23:59:05.763753+00:00",
+  "versions": {
+    "blender": "5.0.0",
+    "blenderPython": "3.14.7",
+    "unity": "6000.3.4f1",
+    "urp": "17.3.0",
+    "platform": "Linux"
+  },
+  "validation": {
+    "blender": {
+      "passed": true,
+      "checkedAtUtc": "2026-10-27T23:29:54.600004+00:00",
+      "report": "verification/blender-checks.json"
+    },
+    "unity": {
+      "passed": true,
+      "checkedAtUtc": "2026-10-27T23:57:55.7093260Z",
+      "report": "verification/unity-checks.json"
+    },
+    "previews": {
+      "visuallyInspected": true,
+      "blenderRenderer": "Cycles CPU / AgX",
+      "unityRenderer": "URP / ACES, OpenGL Core 4.5",
+      "observation": "Both show the island, five rings, loop, palms, spring, and readable plaque. Geometry and composition agree; lighting and reflections differ between renderers."
+    }
+  },
+  "scope": "Static editable scene and import workflow. No standalone player build, movement, collisions, or collectible behavior tested.",
+  "artifactPathBase": "chapter directory",
+  "artifacts": {
+    "blender/FirstRing.blend": {
+      "bytes": 330915,
+      "sha256": "d33be1dfd8716297eeb4400171bc702f3372082621eee0fcc6508824d2319b24"
+    },
+    "scripts/build_scene.py": {
+      "bytes": 17171,
+      "sha256": "49936f7febd7e55a07de582a2e7f5b7fb63cb82fa989f157016511ed78541121"
+    },
+    "scripts/export_scene.py": {
+      "bytes": 4592,
+      "sha256": "b2b5375cc32ef21d2e949b9b5b9dc108b92a4ec9dd497de610915fa8dee17fb8"
+    },
+    "scripts/validate_blend.py": {
+      "bytes": 3480,
+      "sha256": "d75a008c2b759ffecdc8937eb19415e37a3e5123d189536098ab1067d922d166"
+    },
+    "unity/Assets/Art/FirstRing.fbx": {
+      "bytes": 855004,
+      "sha256": "cd50dff21d036f8fdc291df11e1727cdba23ef2739864eb65af3bc1aef6ed91a"
+    },
+    "unity/Assets/Art/FirstRing.fbx.meta": {
+      "bytes": 6300,
+      "sha256": "a3bc843a880688a6851b7c6bca8fcd7792cbafc5185ef6d89d93269d49e836b0"
+    },
+    "unity/Assets/Art/FirstRing.prefab": {
+      "bytes": 2449,
+      "sha256": "9fdf0abdf2e88dc256d80e6e8fa3687d83df4fdec8dee0f213edbbf27327f719"
+    },
+    "unity/Assets/Art/scene-manifest.json": {
+      "bytes": 3154,
+      "sha256": "67950aa76956ec6f17532f6a1877dc8de8cdc1baee66fa266faaaf16f828991a"
+    },
+    "unity/Assets/Scenes/FirstRing.unity": {
+      "bytes": 18107,
+      "sha256": "28adcfa7ba5371507c7ff14975901e4c9dc118b24cf14afd91e08c9b0d8b4244"
+    },
+    "unity/Assets/Editor/ChapterBuilder.cs": {
+      "bytes": 19646,
+      "sha256": "f693cdc4277eeb836e17d48f931831b24d6f81371232b28043b8ec04c405de33"
+    },
+    "unity/Assets/Settings/ChapterPipeline.asset": {
+      "bytes": 4694,
+      "sha256": "657da348ba04c5f22a30981cbbcc64e7bb313bd0c4a771f58326e3d0982b30f1"
+    },
+    "unity/Assets/Settings/ChapterRenderer.asset": {
+      "bytes": 1920,
+      "sha256": "b086f37955934019e7a485888a57909b25a59ac92abe6e697609b1e6bcdfbcc4"
+    },
+    "unity/Assets/Settings/ChapterVolume.asset": {
+      "bytes": 1494,
+      "sha256": "1548c601229b7c8d965daef1bae27e8210af583952c69a675f470dceca1ea22f"
+    },
+    "unity/Packages/manifest.json": {
+      "bytes": 248,
+      "sha256": "8bcb9e876ac5ccc855fa716084852f4a5c2ce76ce274631f975c2060841f67b5"
+    },
+    "unity/Packages/packages-lock.json": {
+      "bytes": 4082,
+      "sha256": "310c0232955e2a84107bdee99d8888890ceb29504abc7fc040548b8dcf1e94c7"
+    },
+    "unity/ProjectSettings/ProjectVersion.txt": {
+      "bytes": 83,
+      "sha256": "f694fab260196d0ef35774325afae7a4915b9a94c509b4c070e28495e38e15c7"
+    },
+    "previews/blender-preview.png": {
+      "bytes": 2216447,
+      "sha256": "0f1ffb2f9ba42a999acdf6c94fccf71ac5b80f0554ec946c9e943ab6c4e05589",
+      "width": 1600,
+      "height": 1200
+    },
+    "previews/unity-preview.png": {
+      "bytes": 329318,
+      "sha256": "4311c98c5f2ca670d6d8ebdc2f6482c0c59e15c344e2cd4c905d874f3f0428ea",
+      "width": 1600,
+      "height": 1200
+    },
+    "verification/blender-checks.json": {
+      "bytes": 760,
+      "sha256": "da8ac27d8f99b60233ed93b8880502082ac67467a400179f8097f9647f3404d8"
+    },
+    "verification/unity-checks.json": {
+      "bytes": 2242,
+      "sha256": "de7bb7a5d14079f7270ba359d0f407299fb9c60c0dd1272d21306236f27a9aa3"
+    },
+    "README.md": {
+      "bytes": 14342,
+      "sha256": "d18006b90bb5a4c47d37b7a8e0392d08e2b5be501010d86e45c6b56f9fe94779"
+    }
+  }
+}

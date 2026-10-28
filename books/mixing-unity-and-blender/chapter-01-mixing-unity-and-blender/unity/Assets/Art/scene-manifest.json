@@ -1,0 +1,171 @@
+{
+  "scene": "First Ring / Emerald Circuit",
+  "blenderVersion": "5.0.0",
+  "pythonVersion": "3.14.7",
+  "exportMethod": "Bundled FBX backend (operator property compatibility fallback)",
+  "unit": "metre",
+  "metersPerUnit": 1,
+  "sourceCameraClipStart": 0.009999999776482582,
+  "meshCount": 124,
+  "trianglesAfterModifiers": 24848,
+  "boundsMinBlender": [
+    -7.050000190734863,
+    -7.050000190734863,
+    -0.30000001192092896
+  ],
+  "boundsMaxBlender": [
+    7.050000190734863,
+    7.050000190734863,
+    6.524864673614502
+  ],
+  "materials": [
+    {
+      "name": "Blue",
+      "hex": "1859D4",
+      "metallic": 0.05,
+      "roughness": 0.46
+    },
+    {
+      "name": "FlowerCenter",
+      "hex": "54372C",
+      "metallic": 0.0,
+      "roughness": 0.9
+    },
+    {
+      "name": "Foam",
+      "hex": "A9F3E5",
+      "metallic": 0.0,
+      "roughness": 0.45
+    },
+    {
+      "name": "Gold",
+      "hex": "FFBE26",
+      "metallic": 0.65,
+      "roughness": 0.25
+    },
+    {
+      "name": "Grass",
+      "hex": "62C52C",
+      "metallic": 0.0,
+      "roughness": 0.76
+    },
+    {
+      "name": "GrassDark",
+      "hex": "268C44",
+      "metallic": 0.0,
+      "roughness": 0.83
+    },
+    {
+      "name": "GrassLight",
+      "hex": "92DF36",
+      "metallic": 0.0,
+      "roughness": 0.7
+    },
+    {
+      "name": "Leaf",
+      "hex": "218E57",
+      "metallic": 0.0,
+      "roughness": 0.78
+    },
+    {
+      "name": "LeafLight",
+      "hex": "61C447",
+      "metallic": 0.0,
+      "roughness": 0.72
+    },
+    {
+      "name": "Ocean",
+      "hex": "20A6BA",
+      "metallic": 0.12,
+      "roughness": 0.3
+    },
+    {
+      "name": "Petal",
+      "hex": "FFD452",
+      "metallic": 0.0,
+      "roughness": 0.65
+    },
+    {
+      "name": "Plinth",
+      "hex": "12495B",
+      "metallic": 0.1,
+      "roughness": 0.65
+    },
+    {
+      "name": "Red",
+      "hex": "EB5148",
+      "metallic": 0.05,
+      "roughness": 0.45
+    },
+    {
+      "name": "Sand",
+      "hex": "F4C87C",
+      "metallic": 0.0,
+      "roughness": 0.82
+    },
+    {
+      "name": "Soil",
+      "hex": "93451F",
+      "metallic": 0.0,
+      "roughness": 0.9
+    },
+    {
+      "name": "SoilLight",
+      "hex": "C77334",
+      "metallic": 0.0,
+      "roughness": 0.85
+    },
+    {
+      "name": "Trunk",
+      "hex": "AE6439",
+      "metallic": 0.0,
+      "roughness": 0.85
+    },
+    {
+      "name": "TrunkLight",
+      "hex": "D49553",
+      "metallic": 0.0,
+      "roughness": 0.8
+    },
+    {
+      "name": "White",
+      "hex": "FFF3D5",
+      "metallic": 0.0,
+      "roughness": 0.65
+    }
+  ],
+  "landmarks": [
+    {
+      "name": "Ring_01",
+      "position": [
+        -2.799999952316284,
+        -1.0199999809265137,
+        3.7200000286102295
+      ]
+    },
+    {
+      "name": "Ring_05",
+      "position": [
+        2.200000047683716,
+        -1.0199999809265137,
+        3.7200000286102295
+      ]
+    },
+    {
+      "name": "GrassCap",
+      "position": [
+        0.0,
+        0.0,
+        2.7799999713897705
+      ]
+    },
+    {
+      "name": "OceanSurface",
+      "position": [
+        0.0,
+        0.0,
+        0.09000000357627869
+      ]
+    }
+  ]
+}

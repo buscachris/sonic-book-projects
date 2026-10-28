@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "checkedAtUtc": "2026-10-27T23:29:54.600004+00:00",
+  "blenderVersion": "5.0.0",
+  "source": "blender/FirstRing.blend",
+  "meshCount": 124,
+  "trianglesAfterModifiers": 24848,
+  "boundsMinBlender": [
+    -7.050000190734863,
+    -7.050000190734863,
+    -0.30000001192092896
+  ],
+  "boundsMaxBlender": [
+    7.050000190734863,
+    7.050000190734863,
+    6.524864673614502
+  ],
+  "checks": {
+    "meshCountMatchesExport": true,
+    "triangleCountMatchesExport": true,
+    "boundsMatchExport": true,
+    "landmarksMatchExport": true,
+    "fiveNamedRings": true,
+    "metricScale": true,
+    "cameraNearClip": true,
+    "allFacesHaveMaterials": true,
+    "noExternalTextureOrLibraryDependencies": true,
+    "nativeSourceWasOpened": true
+  }
+}

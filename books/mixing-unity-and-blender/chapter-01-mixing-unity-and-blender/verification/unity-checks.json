@@ -1,0 +1,83 @@
+{
+    "unityVersion": "6000.3.4f1",
+    "sourceBlenderVersion": "5.0.0",
+    "scene": "Assets/Scenes/FirstRing.unity",
+    "checkedAtUtc": "2026-10-27T23:57:55.7093260Z",
+    "passed": true,
+    "allMaterialsUseUrpLit": true,
+    "rootTransformIdentity": true,
+    "paletteMatches": true,
+    "boundsMatch": true,
+    "landmarksMatch": true,
+    "triangleCountMatches": true,
+    "importedMeshCount": 124,
+    "expectedMeshCount": 124,
+    "ringCount": 5,
+    "materialCount": 19,
+    "triangles": 24848,
+    "cameraNearClip": 0.009999999776482582,
+    "boundsCenter": {
+        "x": 0.0,
+        "y": 3.1124322414398195,
+        "z": 0.0
+    },
+    "boundsSize": {
+        "x": 14.100000381469727,
+        "y": 6.824864387512207,
+        "z": 14.100000381469727
+    },
+    "landmarks": [
+        {
+            "name": "Ring_01",
+            "blenderPosition": {
+                "x": -2.799999952316284,
+                "y": -1.0199999809265137,
+                "z": 3.7200000286102297
+            },
+            "unityPosition": {
+                "x": -2.799999952316284,
+                "y": 3.7200000286102297,
+                "z": -1.0199999809265137
+            }
+        },
+        {
+            "name": "Ring_05",
+            "blenderPosition": {
+                "x": 2.200000047683716,
+                "y": -1.0199999809265137,
+                "z": 3.7200000286102297
+            },
+            "unityPosition": {
+                "x": 2.200000047683716,
+                "y": 3.7200000286102297,
+                "z": -1.0199999809265137
+            }
+        },
+        {
+            "name": "GrassCap",
+            "blenderPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 2.7799999713897707
+            },
+            "unityPosition": {
+                "x": 0.0,
+                "y": 2.7799999713897707,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "OceanSurface",
+            "blenderPosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.09000000357627869
+            },
+            "unityPosition": {
+                "x": 0.0,
+                "y": 0.09000000357627869,
+                "z": 0.0
+            }
+        }
+    ]
+}
