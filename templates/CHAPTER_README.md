@@ -4,15 +4,15 @@
 
 ## What this chapter teaches
 
-Explain the supplied lesson in our own words. Identify the learning outcome.
+Explain the supplied lesson in my own words. Identify the learning outcome.
 
-## Our Sonic-inspired project
+## My Sonic-inspired project
 
 Describe the original scene or mechanic and how it demonstrates that outcome.
 
-## Our approach and why
+## My approach and why
 
-| Decision | Why we chose it | Tradeoff or difference from the book |
+| Decision | Why I chose it | Tradeoff or difference from the book |
 | --- | --- | --- |
 | Concrete implementation choice | Practical or learning reason | What changes |
 
@@ -39,7 +39,7 @@ which generated files they replace. Include a small exercise tied to the lesson.
 Record checks actually run and link to evidence. Clearly mark untested paths
 and deferred work. Never label a Blender render as a Unity screenshot.
 
-## What we learned / next chapter
+## What I learned / next chapter
 
 Connect observations to the learning outcome. Mention the next supplied lesson;
 do not invent or implement unsupplied chapters.
@@ -48,4 +48,4 @@ do not invent or implement unsupplied chapters.
 
 Link relevant official documentation. Identify the book and chapter without
 redistributing the chapter text or publisher assets. Credit external assets
-and describe the provenance of our own work.
+and describe the provenance of my own work.

@@ -4,9 +4,9 @@ This book directory uses **`mixing-unity-and-blender` as a working name**, taken
 from the supplied first chapter. The full book title and edition have not yet
 been supplied; this is not a claim about the book's official title.
 
-We follow each supplied chapter's learning objective and create an original
+I follow each supplied chapter's learning objective and create an original
 Sonic-inspired interpretation in Blender. Every chapter README explains the
-lesson in our own words, the finished project, the chosen method, and why it
+lesson in my own words, the finished project, the chosen method, and why it
 fits that lesson.
 
 | Chapter | Project | Focus |
@@ -20,7 +20,7 @@ controller or collectible behavior. The Chapter 3 folder contains the editor set
 ## Versions
 
 The supplied chapter recommends Blender 5.1 (or 5.2 LTS) and Unity 6.3 LTS.
-Our first project was built with the installed **Blender 5.0.0** and
+I built my first project with **Blender 5.0.0** and
 **Unity 6000.3.4f1**, with **URP 17.3.0**. The chapter records what was tested
 and the small export workaround needed by this Linux Blender build.
 
@@ -29,5 +29,5 @@ and the small export workaround needed by this Linux Blender build.
 Keep each chapter's source, export, Unity project, preview, and verification
 together. Preserve earlier chapters when adding a new one. Use the shared
 [README template](../../templates/CHAPTER_README.md), including the
-**Our approach and why** section, so the collection records our decisions as
+**My approach and why** section, so the collection records my decisions as
 well as the final assets.

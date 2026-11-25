@@ -1,8 +1,6 @@
 # Sonic Book Projects
 
-Original Sonic-inspired Blender projects, organized by book and chapter.
-Each chapter turns the lesson into a small, editable project and explains
-**what the chapter teaches, what we made, and why we chose our own method**.
+I use these Sonic-inspired studies to work through Blender and Unity one chapter at a time. In each project I explain what I made, which parts of the lesson I used, and why I made my own design choices.
 
 ![First Ring — Chapter 1 Blender render](books/mixing-unity-and-blender/chapter-01-mixing-unity-and-blender/previews/blender-preview.png)
 
@@ -10,7 +8,7 @@ Each chapter turns the lesson into a small, editable project and explains
 
 | Book directory | Chapters | Start here |
 | --- | --- | --- |
-| [`mixing-unity-and-blender`](books/mixing-unity-and-blender/) — working name; full book title and edition pending | 01 — Mixing Unity and Blender | [First Ring / Emerald Circuit](books/mixing-unity-and-blender/chapter-01-mixing-unity-and-blender/) |
+| [`mixing-unity-and-blender`](books/mixing-unity-and-blender/) — working name; full book title and edition pending | 01 and 03 | [First Ring diorama](books/mixing-unity-and-blender/chapter-01-mixing-unity-and-blender/) · [Unity prototyping setup](books/mixing-unity-and-blender/chapter-03-prototyping-in-unity/) |
 
 ## How the collection works
 
@@ -19,7 +17,7 @@ books/
   <book-name>/
     README.md
     chapter-01-<chapter-name>/
-      README.md       # Lesson, our approach, reasons, instructions, evidence
+      README.md       # Lesson, my approach, reasons, instructions, evidence
       blender/        # Editable .blend sources
       scripts/        # Reproducible modeling/export/validation tools
       unity/          # Engine project when the lesson needs one
@@ -45,13 +43,10 @@ The current files are small enough for ordinary Git, with no Git LFS requirement
 
 ## Provenance
 
-The geometry, palette, scripts, and scenes in this collection were made for
-these exercises. The repository does not include publisher chapter text,
+I made the geometry, palette, scripts, and scenes for these exercises. The repository does not include publisher chapter text,
 screenshots, code bundles, or extracted game assets.
 
 Sonic the Hedgehog belongs to SEGA. This is an unofficial educational fan
 project and is not affiliated with or endorsed by SEGA or the book publisher.
-
-Chapter 3 adds the [Unity prototyping setup](books/mixing-unity-and-blender/chapter-03-prototyping-in-unity/).
 
 The [MIT License](LICENSE) applies to the original code, documentation and artwork. Third-party packages and trademarks retain their existing terms.

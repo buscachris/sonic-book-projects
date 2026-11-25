@@ -1,6 +1,6 @@
 # Chapter 1 — Mixing Unity and Blender
 
-**Our project: First Ring / Emerald Circuit** — an original Sonic-inspired
+**My project: First Ring / Emerald Circuit** — an original Sonic-inspired
 island diorama built in Blender and imported into Unity.
 
 ![First Ring rendered in Blender](previews/blender-preview.png)
@@ -10,7 +10,7 @@ island diorama built in Blender and imported into Unity.
 ## What this chapter teaches
 
 The first lesson establishes the connection between two tools. Blender is
-where we author geometry and materials; Unity is where we assemble those
+where I author geometry and materials; Unity is where I assemble those
 assets into a scene that an engine can display. The important outcome is a
 repeatable path from an editable model to a correctly positioned, visible
 asset in Unity.
@@ -20,33 +20,33 @@ between Scene and Game views, saving Blender artwork, importing it, and
 adjusting a camera's near clipping plane. It also introduces the housekeeping
 needed when Blender backup files and Unity assets live near each other.
 
-Our version demonstrates those ideas with a more recognizable subject than a
+My version demonstrates those ideas with a more recognizable subject than a
 default cube. It remains a **static import exercise**: the rings and spring
 are decorative meshes, with no collection, bounce, collision, or player controls.
 
-## Our Sonic-inspired project
+## My Sonic-inspired project
 
 The island combines a checkerboard cliff, grassy loop, two angular palms,
 five gold rings, stepping stones, sunflowers, a red-and-blue spring, and a
-small ocean base. The plaque names our scene rather than copying a game logo.
+small ocean base. The plaque names my scene rather than copying a game logo.
 
 Everything is made from primitives or small explicitly modeled meshes.
 Objects have readable names such as `Ring_03`, `GrassCap`, and `OceanSurface`.
 Blender collections separate the island, palms, rings, path, details, sign,
 ocean, and presentation rig, making it practical to inspect or change one part.
 
-## Our approach and why
+## My approach and why
 
-| Decision | Why we chose it | Difference or tradeoff |
+| Decision | Why I chose it | Difference or tradeoff |
 | --- | --- | --- |
 | A small island instead of the default cube | Rings, foliage, a loop, and a checker pattern exercise rotations, shapes, and multiple materials while giving the lesson a Sonic theme. | More geometry than the book's first example; still a static scene. |
 | Keep `FirstRing.blend` in `blender/`; explicitly export an FBX into Unity | The source stays editable, and Unity can open the committed project without invoking a locally installed Blender converter. Export settings are visible and repeatable. | Unlike the book's direct `.blend` import, saving the source alone does not update Unity. Run the export step. |
 | Use face-assigned colors and simple Principled materials | The checker pattern is geometry with alternating material assignments, so it survives export without baking a Blender procedural shader. | No texture-painting or UV workflow in this chapter. |
 | Recreate materials with URP Lit | The export manifest carries base color, metallic, and roughness values; Unity uses smoothness = `1 − roughness`. This avoids relying on automatic shader conversion. | Blender and Unity use different lighting and tone mapping, so their renders are not identical. |
-| Give each application its own camera and lighting | The `Studio` collection is only for the Blender presentation. Unity gets one clearly identified main camera and its own lights, avoiding competing imported cameras. | We practice clipping explicitly rather than reproducing the book's imported-camera clipping problem. Both cameras start at `0.01 m`. |
+| Give each application its own camera and lighting | The `Studio` collection is only for the Blender presentation. Unity gets one clearly identified main camera and its own lights, avoiding competing imported cameras. | I practice clipping explicitly rather than reproducing the book's imported-camera clipping problem. Both cameras start at `0.01 m`. |
 | Use one metre per unit and an identity transform for the imported root | A known scale and named landmarks let us verify the coordinate conversion instead of adjusting the model until it merely looks right. | The FBX export/import settings must stay consistent. |
 | Include construction and export scripts alongside the native file | The model is editable in Blender, while the script records how it was assembled and can reproduce the baseline. | Regenerating the baseline replaces manual model edits; exporting the saved file preserves them. |
-| Ignore backup files in Git and keep source outside `Assets` | Blender recovery copies remain available locally without entering Unity or cluttering the repository. | We leave the user's global Save Versions preference alone rather than disabling backups as the book suggests. |
+| Ignore backup files in Git and keep source outside `Assets` | Blender recovery copies remain available locally without entering Unity or cluttering the repository. | I kept my existing Blender backup settings. |
 
 ### A compatibility adjustment on this machine
 
@@ -162,7 +162,7 @@ requests preserved the intended lighting and ACES tone mapping. The script
 temporarily makes shader compilation synchronous and restores that setting
 after capture.
 
-The following Linux command uses the OpenGL backend used for our preview.
+The following Linux command uses the OpenGL backend used for my preview.
 The capture exits the batch process itself; omit both `-nographics` and `-quit`:
 
 ```bash
@@ -199,7 +199,7 @@ Blender 5.1/5.2, other operating systems, a standalone player build, collision,
 character movement, or gameplay. The many separate objects are useful for
 learning and editing; this is not a batching or performance optimization study.
 
-## What we learned / next chapter
+## What I learned / next chapter
 
 An engine import needs more than a file appearing in a browser: the scene must
 have the intended scale, orientation, materials, and a useful camera. Keeping
@@ -220,7 +220,7 @@ leaving this first chapter available as a working reference.
 - [Unity 6.3: Render requests in URP](https://docs.unity3d.com/6000.3/Documentation/Manual/urp/User-Render-Requests.html)
   documents the API used to capture the actual Unity preview.
 - Blender's [Python 3.14 FBX operator fix](https://projects.blender.org/blender/blender/commit/d7d8e7a1df12c405d62e92be56cfb55eada85a4b)
-  records the annotation issue handled by our local exporter fallback.
+  records the annotation issue handled by my local exporter fallback.
 
 All scene geometry, palette choices, and project scripts were created for this
 exercise; no game models, sprites, textures, or music were extracted. Sonic
