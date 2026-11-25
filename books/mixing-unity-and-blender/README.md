@@ -12,10 +12,10 @@ fits that lesson.
 | Chapter | Project | Focus |
 | --- | --- | --- |
 | [01 — Mixing Unity and Blender](chapter-01-mixing-unity-and-blender/) | **First Ring / Emerald Circuit** | Editable Blender artwork, explicit FBX export, Unity URP import, scale, materials, camera clipping, and project organization |
+| [03 — Prototyping in Unity](chapter-03-prototyping-in-unity/) | Unity editor bootstrap | ProBuilder and URP package setup for level blockout |
 
 Chapter 1 introduces the tool workflow with a static diorama. It has no player
-controller or collectible behavior. The supplied chapter identifies materials
-and transformations as the next topic; no later chapter is implemented yet.
+controller or collectible behavior. The Chapter 3 folder contains the editor setup for a later blockout.
 
 ## Versions
 

@@ -51,3 +51,7 @@ screenshots, code bundles, or extracted game assets.
 
 Sonic the Hedgehog belongs to SEGA. This is an unofficial educational fan
 project and is not affiliated with or endorsed by SEGA or the book publisher.
+
+Chapter 3 adds the [Unity prototyping setup](books/mixing-unity-and-blender/chapter-03-prototyping-in-unity/).
+
+The [MIT License](LICENSE) applies to the original code, documentation and artwork. Third-party packages and trademarks retain their existing terms.
