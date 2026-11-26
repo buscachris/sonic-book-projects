@@ -225,3 +225,7 @@ leaving this first chapter available as a working reference.
 All scene geometry, palette choices, and project scripts were created for this
 exercise; no game models, sprites, textures, or music were extracted. Sonic
 the Hedgehog belongs to SEGA. This is an unofficial educational fan project.
+
+## Reusing my chapter notes
+
+I offer my original prose in this guide under either the [MIT License](../../../LICENSE) or [CC BY 4.0](../../../LICENSES/CC-BY-4.0.txt). Please credit Christian Busca when reusing the text under CC BY.

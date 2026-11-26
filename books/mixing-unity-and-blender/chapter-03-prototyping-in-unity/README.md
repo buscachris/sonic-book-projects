@@ -13,3 +13,7 @@ Unity -batchmode -quit -projectPath "$PWD/unity" -executeMethod SonicBook.Chapte
 ```
 
 Look for `GHZ_PACKAGE_SETUP` followed by the editor version. The manifest and lockfile were parsed and their ProBuilder and URP versions matched. Editor execution and gameplay are unverified for this snapshot.
+
+## Reusing my chapter notes
+
+I offer my original prose in this guide under either the [MIT License](../../../LICENSE) or [CC BY 4.0](../../../LICENSES/CC-BY-4.0.txt). Please credit Christian Busca when reusing the text under CC BY.

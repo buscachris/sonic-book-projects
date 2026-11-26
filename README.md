@@ -49,4 +49,4 @@ screenshots, code bundles, or extracted game assets.
 Sonic the Hedgehog belongs to SEGA. This is an unofficial educational fan
 project and is not affiliated with or endorsed by SEGA or the book publisher.
 
-The [MIT License](LICENSE) applies to the original code, documentation and artwork. Third-party packages and trademarks retain their existing terms.
+I license my original code, documentation, and artwork under the [MIT License](LICENSE). I also offer the prose I wrote for the chapter READMEs under [CC BY 4.0](LICENSES/CC-BY-4.0.txt). Either license can be used for that text. The book, Sonic characters and trademarks, and third-party packages retain their respective terms.
